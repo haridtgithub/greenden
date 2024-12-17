@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant-Based Product Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50">
+  <header class="bg-green-600 text-white py-4 shadow-md">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Greenden Store</h1>
+      <nav>
+        <ul class=" hidden md:flex space-x-6">
+          <li><a href="index.html" class="hover:text-green-200">Home</a></li>
+          <li><a href="index2.html" class="hover:text-green-200">Products</a></li>
+       
+          <li><a href="#contact" class="hover:text-green-200">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <section class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-green-700 mb-4">Our Plant-Based Products</h2>
+      <p class="text-gray-600">Explore our range of eco-friendly, sustainable, and healthy products made from plants.</p>
+    </section>
+
+
+
+  <section id="contact" class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-green-700 text-center mb-6">Contact Us</h2>
+      <p class="text-gray-600 text-center mb-8">We would love to hear from you. Reach out to us with any questions or feedback!</p>
+      <form class="max-w-lg mx-auto bg-gray-100 p-6 rounded shadow-md">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg" placeholder="Your Name">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg" placeholder="Your Email">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+          <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-lg" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-500">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-green-600 text-white py-4 mt-12">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 Greenden Store. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
